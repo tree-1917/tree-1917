@@ -49,10 +49,10 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://fosstodon.org/@squidfunk
+      link: https://github.com/tree-1917
       name: github
     - icon: fontawesome/brands/linkedin
-      link: https://
+      link: https://www.linkedin.com/in/gamalmoussa1917/
       name: linkedin
 
 copyright: Copyright &copy; 2024 - 2025 Gamal Moussa
