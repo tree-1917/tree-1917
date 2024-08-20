@@ -1,0 +1,94 @@
+/* extra.css */
+
+/* Define custom colors */
+:root {
+  --card-background-light: #ffffff;
+  --card-background-dark: #2c3e50;
+  --card-border-light: #ddd;
+  --card-border-dark: #34495e;
+  --card-shadow-light: rgba(0, 0, 0, 0.1);
+  --card-shadow-dark: rgba(0, 0, 0, 0.3);
+  --card-text-light: #333;
+  --card-text-dark: #ecf0f1;
+  --card-link-light: #3498db;
+  --card-link-dark: #1abc9c;
+  --card-link-hover-light: #2980b9;
+  --card-link-hover-dark: #16a085;
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+/* Card Styling */
+.card {
+  background: var(--card-background-light);
+  border: 1px solid var(--card-border-light);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px var(--card-shadow-light);
+  width: 300px;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Headings */
+.card h3 {
+  margin-top: 0;
+  color: var(--card-text-light);
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  color: var(--card-text-light);
+}
+
+/* Card Links */
+.card-content a {
+  text-decoration: none;
+  color: var(--card-link-light);
+  transition: color 0.3s ease;
+}
+
+.card-content a:hover {
+  color: var(--card-link-hover-light);
+}
+
+/* Card Text */
+.card-content p {
+  color: var(--card-text-light);
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: var(--card-background-dark);
+    border: 1px solid var(--card-border-dark);
+    box-shadow: 0 4px 8px var(--card-shadow-dark);
+  }
+
+  .card h3,
+  .card h4,
+  .card-content p {
+    color: var(--card-text-dark);
+  }
+
+  .card-content a {
+    color: var(--card-link-dark);
+  }
+
+  .card-content a:hover {
+    color: var(--card-link-hover-dark);
+  }
+}
+
+/* Ensure compatibility with theme toggle */
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
