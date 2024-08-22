@@ -43,6 +43,16 @@ Here are the most recent updates from each of our sections:
   </div>
 </div>
 
+<div class="card">
+  <h3>Tools</h3>
+  <div class="card-content">
+    <a href="Tools/Docker/introduction">
+      <h4>Introduction to DevOps Tools</h4>
+    </a>
+    <p>Learn about essential DevOps tools like Docker, Kubernetes, and Ansible. Get insights into how these tools help in automating and managing modern IT infrastructures.</p>
+  </div>
+</div>
+
 </div>
 
 ---
