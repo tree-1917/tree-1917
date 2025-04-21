@@ -33,7 +33,7 @@ We welcome contributions to make the Camel Code Blog even better! Here’s how y
 1. **Fork the Repository**: Click the "Fork" button at the top-right corner of this page.
 2. **Clone Your Fork**: Use the following command to clone your fork to your local machine:
    ```bash
-   git clone https://github.com/your-username/camel-code-blog.git
+   git clone https://github.com/tree-1917/camel-code-blog.git
    ```
 3. **Make Changes**: Edit or add content to the blog. Be sure to follow the style and formatting guidelines.
 4. **Commit Your Changes**: Add and commit your changes with descriptive messages:
