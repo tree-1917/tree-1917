@@ -4,4 +4,4 @@ Welcome to **Camel Code Blog**! Dive into the world of technology with our insig
 
 ## 🧑‍💻 About Me
 
-I'm a passionate **System Administrator** and **Backend Developer** with a strong background in **Python**, **Linux administration**, and **SQL databases**. I enjoy solving problems through code and have experience with frameworks like **FastAPI**, **Flask**, and **Django**, as well as tools like **Docker** and **Git**. Always eager to learn and collaborate on exciting projects, I’m committed to sharing knowledge and helping others grow in their tech journey.
+I'm a passionate **DevOps** and **Security** with a strong background in **Cloud**, **Linux**, and **Security**.
