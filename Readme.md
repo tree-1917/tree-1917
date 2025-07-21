@@ -23,7 +23,6 @@ Hi there! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator with 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tree-1917&theme=algolia&column=4" />
   <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=algolia" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" />
 </p>
