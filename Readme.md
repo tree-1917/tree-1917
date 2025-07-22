@@ -1,30 +1,54 @@
 <h1 align="center">🌟 Camel Code Blog</h1>
 
 <p align="center">
-🚀 DevOps Explorer | 🔐 Security Enthusiast | ☁️ Cloud Architect | 🐧 Linux Advocate  
+🚀 DevOps Explorer &nbsp;|&nbsp; 🔐 Security Enthusiast &nbsp;|&nbsp; ☁️ Cloud Architect &nbsp;|&nbsp; 🐧 Linux Advocate  
 <br>
-Automating everything — from infrastructure to reverse engineering.
+<em>Automating everything — from infrastructure to reverse engineering.</em>
 </p>
-
-
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator with passion for:
+Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator passionate about:
 
 - 🐧 Linux (Debian, Kali, NixOS, RedHat)
-- 🔐 Cybersecurity & Reverse Engineering
-- ☁️ AWS, Kubernetes, and Scalable Cloud Systems
-- ⚙️ CI/CD with Jenkins & GitHub Actions
-- 🧰 Bash, Ansible, Python Automation
-- ✍️ Writing on systems, programming, and automation philosophy
+- 🔐 Cybersecurity, Malware Analysis, Reverse Engineering
+- ☁️ AWS, Kubernetes, and scalable cloud-native systems
+- ⚙️ CI/CD with Jenkins, GitHub Actions, and Docker
+- 🧰 Bash, Python, and Ansible automation
+- ✍️ Writing about system design, programming, and automation philosophy
+
+> **Mission:** Simplify complexity. Automate everything. Secure what matters.
 
 ---
 
+## 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
+  <br>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=tree-1917&theme=radical&hide_border=true" alt="GitHub Streak" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
-<p align="center"><i>Thanks for visiting. Let’s automate the future. 🐫</i></p>
+---
+
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=tree-1917&theme=monokai&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 🐍 Contribution Activity
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
+</p>
+
+---
+
+<p align="center"><i>Thanks for visiting — let’s automate the future. 🐫</i></p>
