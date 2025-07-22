@@ -6,13 +6,7 @@
 Automating everything — from infrastructure to reverse engineering.
 </p>
 
-<p align="center">
-  <a href="https://visitor-badge.laobi.icu/badge?page_id=tree-1917.tree-1917">
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=tree-1917.tree-1917" alt="visitors"/>
-  </a>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/status-🚧%20Work%20in%20Progress-orange" alt="Work in Progress">
-</p>
+
 
 ---
 
