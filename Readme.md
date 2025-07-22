@@ -1,36 +1,38 @@
 <h1 align="center">🌟 Camel Code Blog</h1>
 
 <p align="center">
-🚀 Dive into DevOps | 🔐 Security Explorer | ☁️ Cloud Enthusiast | 🐧 Linux Advocate  
+🚀 DevOps Explorer | 🔐 Security Enthusiast | ☁️ Cloud Architect | 🐧 Linux Advocate  
 <br>
-Passionate about automation, backend systems, reverse engineering, and infrastructure at scale.
+Automating everything — from infrastructure to reverse engineering.
 </p>
 
 <p align="center">
   <a href="https://visitor-badge.laobi.icu/badge?page_id=tree-1917.tree-1917">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=tree-1917.tree-1917" alt="visitors"/>
   </a>
+  &nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/status-🚧%20Work%20in%20Progress-orange" alt="Work in Progress">
 </p>
 
 ---
 
 ## 👨‍💻 About Me
 
-Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
+Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator with passion for:
 
-- 🐧 Masters Linux (Debian, Kali, NixOS, RedHat)
-- 🔐 Explores Cybersecurity & Reverse Engineering
-- ☁️ Deploys Cloud Systems (AWS, Kubernetes)
-- ⚙️ Builds CI/CD Pipelines with Jenkins & GitHub Actions
-- 🧰 Automates with Bash, Ansible & Python
-- 💬 Writes articles on Linux, DevOps, and code philosophy
+- 🐧 Linux (Debian, Kali, NixOS, RedHat)
+- 🔐 Cybersecurity & Reverse Engineering
+- ☁️ AWS, Kubernetes, and Scalable Cloud Systems
+- ⚙️ CI/CD with Jenkins & GitHub Actions
+- 🧰 Bash, Ansible, Python Automation
+- ✍️ Writing on systems, programming, and automation philosophy
 
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=linux,bash,ansible,docker,kubernetes,python,fastapi,nodejs,mongodb,git,github,neovim,jenkins" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,ansible,docker,kubernetes,python,fastapi,nodejs,mongodb,git,github,neovim,jenkins" />
 </p>
 
 ---
@@ -46,20 +48,22 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="100%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=algolia&hide_title=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="48%" />
 </p>
 
---- 
+---
 
 ## ✍️ Blog & Projects
 
-Explore more on [Camel Code Blog](https://tree-1917.github.io/tree-1917/):
+Explore more on [🌐 Camel Code Blog](https://tree-1917.github.io/tree-1917/):
 
 - 💡 Linux Tips & Shell Scripting
 - 📦 Ansible Playbooks & Automation
 - 🔬 Reverse Engineering Techniques
-- 📘 Programming Relationships in Python ([Read it](https://tree-1917.github.io/tree-1917/Coding/python/content/RelationShip_in_Programming/))
-- 🔗 Solidity & Blockchain Dev
+- 📘 Programming Relationships in Python — [Read it](https://tree-1917.github.io/tree-1917/Coding/python/content/RelationShip_in_Programming/)
+- 🔗 Solidity & Blockchain Development
+- 📈 Monitoring and Infrastructure with Prometheus/Grafana
 
 ---
 
