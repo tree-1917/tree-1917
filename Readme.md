@@ -39,27 +39,6 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator with passio
 
 ---
 
-
-## ✍️ Blog & Projects
-
-Explore more on [🌐 Camel Code Blog](https://tree-1917.github.io/tree-1917/):
-
-- 💡 Linux Tips & Shell Scripting
-- 📦 Ansible Playbooks & Automation
-- 🔬 Reverse Engineering Techniques
-- 📘 Programming Relationships in Python — [Read it](https://tree-1917.github.io/tree-1917/Coding/python/content/RelationShip_in_Programming/)
-- 🔗 Solidity & Blockchain Development
-- 📈 Monitoring and Infrastructure with Prometheus/Grafana
-
----
-
-## 📫 Reach Me
-
-- ✉️ Email: [gamal.moussa@example.com](mailto:gamal.moussa@example.com)
-- 🌐 Website: [tree-1917.github.io](https://tree-1917.github.io/)
-
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
