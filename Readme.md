@@ -8,10 +8,11 @@
 
 ---
 
-## 📊 Programming Languages
+## 📊 Programming Languages & GitHub Trophies
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="60%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="49%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=tree-1917&theme=algolia&column=3&margin-w=5&margin-h=5" width="49%" />
 </p>
 
 ---
