@@ -21,14 +21,6 @@ Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator passiona
 
 > **Mission:** Simplify complexity. Automate everything. Secure what matters.
 
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
-</p>
 
 ---
 
