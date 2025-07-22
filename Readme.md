@@ -46,7 +46,6 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=algolia" width="48%" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="48%" />
 </p>
 
