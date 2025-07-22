@@ -26,7 +26,7 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator with passio
 ## 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,ansible,docker,kubernetes,python,fastapi,nodejs,mongodb,git,github,neovim,jenkins" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,ansible,docker,kubernetes,python,fastapi,nodejs,mongodb,git,github,neovim,jenkins,rust,mysql" />
 </p>
 
 ---
