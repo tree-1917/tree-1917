@@ -27,9 +27,6 @@ Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator passiona
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=radical&hide_border=true" alt="GitHub Stats" />
-  <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=tree-1917&theme=radical&hide_border=true" alt="GitHub Streak" />
-  <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
 </p>
 
