@@ -18,7 +18,7 @@ Passionate about automation, backend systems, reverse engineering, and infrastru
 
 Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
 
-- 🐧 Masters Linux (Debian, Kali, NixOS)
+- 🐧 Masters Linux (Debian, Kali, NixOS, RedHat)
 - 🔐 Explores Cybersecurity & Reverse Engineering
 - ☁️ Deploys Cloud Systems (AWS, Kubernetes)
 - ⚙️ Builds CI/CD Pipelines with Jenkins & GitHub Actions
@@ -29,7 +29,9 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
 
 ## 🛠️ Tech Stack
 
+<p align="center">
 <img src="https://skillicons.dev/icons?i=linux,bash,ansible,docker,kubernetes,python,fastapi,nodejs,mongodb,git,github,neovim,jenkins" />
+</p>
 
 ---
 
@@ -47,17 +49,7 @@ Hi! I'm **Gamal Moussa**, a DevOps Engineer and System Administrator who:
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=algolia" width="48%" />
 </p>
 
----
-
-## ⌨️ Coding Activity (Wakatime)
-
-<p align="center">
-  <img src="https://wakatime.com/share/@tree-1917/your-stats-id.svg" alt="Wakatime stats" />
-</p>
-
-> Replace `your-stats-id` with your Wakatime share ID.
-
----
+--- 
 
 ## ✍️ Blog & Projects
 
@@ -74,7 +66,6 @@ Explore more on [Camel Code Blog](https://tree-1917.github.io/tree-1917/):
 ## 📫 Reach Me
 
 - ✉️ Email: [gamal.moussa@example.com](mailto:gamal.moussa@example.com)
-- 🐦 Twitter: [@tree_1917](https://twitter.com/tree_1917)
 - 🌐 Website: [tree-1917.github.io](https://tree-1917.github.io/)
 
 ---
