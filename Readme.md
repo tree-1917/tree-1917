@@ -1,7 +1,7 @@
-<h1 align="center">🌟 Camel Code Blog</h1>
+<h1 align="center">🐫 Camel Code Blog</h1>
 
 <p align="center">
-🚀 DevOps Explorer &nbsp;|&nbsp; 🔐 Security Enthusiast &nbsp;|&nbsp; ☁️ Cloud Architect &nbsp;|&nbsp; 🐧 Linux Advocate  
+🚀 DevOps Engineer &nbsp;|&nbsp; 🔐 Security Enthusiast &nbsp;|&nbsp; ☁️ Cloud Architect &nbsp;|&nbsp; 🐧 Linux Advocate  
 <br>
 <em>Automating everything — from infrastructure to reverse engineering.</em>
 </p>
@@ -10,17 +10,28 @@
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator passionate about:
+Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator focused on:
 
 - 🐧 Linux (Debian, Kali, NixOS, RedHat)
 - 🔐 Cybersecurity, Malware Analysis, Reverse Engineering
 - ☁️ AWS, Kubernetes, and scalable cloud-native systems
 - ⚙️ CI/CD with Jenkins, GitHub Actions, and Docker
-- 🧰 Bash, Python, and Ansible automation
-- ✍️ Writing about system design, programming, and automation philosophy
+- 🧰 Bash, Python, Ansible, and Go automation
+- ✍️ Writing about system design, programming, and DevOps philosophy
 
 > **Mission:** Simplify complexity. Automate everything. Secure what matters.
 
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=monokai&hide_border=true" alt="Gamal Moussa's GitHub stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=monokai&hide_border=true" alt="Top Languages" />
+</p>
 
 ---
 
