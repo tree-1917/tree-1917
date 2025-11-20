@@ -23,23 +23,6 @@ I specialize in:
 > **Mission:** Simplify complexity. Automate everything. Secure what matters.
 
 ---
-
-## 📊 GitHub Metrics (New & Fast)
-
-<p align="center">
-  <img src="https://github-readme-metrics-phi-eight.vercel.app/api?username=tree-1917&template=classic&config.timezone=Africa/Cairo" alt="GitHub Metrics" />
-</p>
-
----
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=tree-1917&theme=monokai&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
-</p>
-
----
-
 ## 🐍 Contribution Activity
 
 <p align="center">
