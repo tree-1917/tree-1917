@@ -25,11 +25,6 @@ Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator focused 
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=monokai&hide_border=true" alt="Gamal Moussa's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=monokai&hide_border=true" alt="Top Languages" />
-</p>
-
 
 ---
 
