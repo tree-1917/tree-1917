@@ -10,14 +10,15 @@
 
 ## 👨‍💻 About Me
 
-Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator focused on:
+Hi, I'm **Gamal Moussa** — a DevOps Engineer, System Administrator, and Reverse Engineering enthusiast.  
+I specialize in:
 
-- 🐧 Linux (Debian, Kali, NixOS, RedHat)
+- 🐧 Linux (Debian, Kali, NixOS, RHEL)
 - 🔐 Cybersecurity, Malware Analysis, Reverse Engineering
-- ☁️ AWS, Kubernetes, and scalable cloud-native systems
-- ⚙️ CI/CD with Jenkins, GitHub Actions, and Docker
-- 🧰 Bash, Python, Ansible, and Go automation
-- ✍️ Writing about system design, programming, and DevOps philosophy
+- ☁️ AWS, Kubernetes, Cloud-Native Architecture
+- ⚙️ CI/CD with Jenkins, GitHub Actions, Docker
+- 🧰 Bash, Python, Go, and Ansible automation
+- ✍️ Writing about system design, programming, DevOps philosophy
 
 > **Mission:** Simplify complexity. Automate everything. Secure what matters.
 
@@ -27,9 +28,9 @@ Hi, I'm **Gamal Moussa** — a DevOps Engineer and System Administrator focused 
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=monokai&hide_border=true" alt="Gamal Moussa's GitHub stats" />
+  <br>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=monokai&hide_border=true" alt="Top Languages" />
 </p>
-
 
 ---
 
