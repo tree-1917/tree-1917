@@ -24,12 +24,10 @@ I specialize in:
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Metrics (New & Fast)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=monokai&hide_border=true" alt="Gamal Moussa's GitHub stats" />
-  <br>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=monokai&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-metrics-phi-eight.vercel.app/api?username=tree-1917&template=classic&config.timezone=Africa/Cairo" alt="GitHub Metrics" />
 </p>
 
 ---
