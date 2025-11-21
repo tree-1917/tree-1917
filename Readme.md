@@ -32,4 +32,3 @@ I specialize in:
 ---
 
 <p align="center"><i>Thanks for visiting — let’s automate the future. 🐫</i></p>
-![Metrics](https://raw.githubusercontent.com/fliot/fliot/main/github-metrics.svg)
