@@ -1,20 +1,20 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Gamal+Moussa+%F0%9F%91%8B;DevOps+Engineer;Linux+Enthusiast;Python+Developer;Welcome+to+Camel+Code!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Gamal+Moussa+%F0%9F%91%8B;Software+Engineer;DevOps+Engineer;Linux+Enthusiast;Python+Developer;Welcome+to+Camel+Code!" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <h3>Automating Infrastructure | Optimizing Workflows | Sharing Knowledge</h3>
+  <h3>Software Engineering | Automating Infrastructure | Optimizing Workflows</h3>
 </div>
 
 <p align="center">
-Welcome to my GitHub profile! I'm passionate about open source and cloud technologies. I run <a href="https://CamelCode.github.io/">Camel Code</a>, a blog dedicated to Linux, DevOps, and coding tutorials.
+Welcome to my GitHub profile! I am a Software Engineer who specialized in DevOps, passionate about open source and cloud technologies. I run <a href="https://CamelCode.github.io/">Camel Code</a>, a blog dedicated to Linux, DevOps, and coding tutorials.
 </p>
 
 ---
 
 ## 🚀 About Me
 
-- 🔭 I’m currently working on enhancing my **DevOps** skills and building cool automation tools.
+- 🔭 I’m currently leveraging my **Software Engineering** background to build robust **DevOps** automation tools.
 - 🌱 I’m currently learning **Kubernetes** deep dives and **Ansible** best practices.
 - ✍️ I write technical articles on my blog, [Camel Code](https://CamelCode.github.io/).
 - 💬 Ask me about **Linux, Python, Docker, and CI/CD**.
