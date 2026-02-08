@@ -79,6 +79,3 @@ markdown_extensions:
 # === custom css === #
 extra_css:
   - assets/stylesheets/extra.css
-# # === custom js === #
-extra_javascript:
-#   - assets/javascripts/extra.js
