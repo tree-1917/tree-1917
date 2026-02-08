@@ -19,8 +19,10 @@ Sorting algorithms arrange data in a particular order. Examples include:
 - **Quick Sort** ⚡
 - **Merge Sort** 🔗
 
-![Sorting Algorithms](https://example.com/sorting-algorithms.png)
-
+```text
+[5, 2, 9, 1, 5, 6] -> [1, 2, 5, 5, 6, 9]
+  (Unsorted)            (Sorted)
+```
 ### Searching Algorithms 🔍
 
 Searching algorithms help you find specific data within a collection. Examples include:
@@ -28,8 +30,12 @@ Searching algorithms help you find specific data within a collection. Examples i
 - **Binary Search** 🔢
 - **Linear Search** 🔄
 
-![Searching Algorithms](https://example.com/searching-algorithms.png)
-
+```text
+Target: 7
+Array: [1, 3, 5, 7, 9]
+             ^
+           Found!
+```
 ## 🗂️ Data Structures
 
 A **data structure** is a way to store and organize data for efficient access and modification. Here are some common data structures:
@@ -38,38 +44,54 @@ A **data structure** is a way to store and organize data for efficient access an
 
 An array is a collection of elements stored in contiguous memory locations.
 
-![Arrays](https://example.com/arrays.png)
-
+```text
+Index:  0   1   2   3
+Value: [A] [B] [C] [D]
+```
 ### Linked Lists 🔗
 
 A linked list is a linear collection of nodes, where each node points to the next one.
 
-![Linked Lists](https://example.com/linked-lists.png)
-
+```text
+[Head] -> [Node A] -> [Node B] -> [Node C] -> NULL
+```
 ### Stacks 📚
 
 A stack follows Last In, First Out (LIFO) principle. Think of it as a stack of plates where you add or remove plates from the top.
 
-![Stacks](https://example.com/stacks.png)
-
+```text
+|   C   |  <-- Top (Push/Pop)
+|   B   |
+|___A___|
+```
 ### Queues 🕰️
 
 A queue follows First In, First Out (FIFO) principle. Imagine a line at a checkout where the first person in line is the first to be served.
 
-![Queues](https://example.com/queues.png)
-
+```text
+Enqueue -> [D] [C] [B] [A] -> Dequeue
+```
 ### Trees 🌳
 
 Trees are hierarchical structures where each node has a value and a list of references to other nodes (its children).
 
-![Trees](https://example.com/trees.png)
-
+```text
+      (Root)
+      /    \
+  (Child) (Child)
+   /   \
+(Leaf) (Leaf)
+```
 ### Graphs 📈
 
 Graphs consist of nodes (vertices) and edges connecting them. They can represent networks, such as social connections or paths in a map.
 
-![Graphs](https://example.com/graphs.png)
-
+```text
+(A) --- (B)
+ |       |
+(C) --- (D)
+ \_____/
+```
 ## 🔄 Complexity Analysis
 
 Understanding the **time** and **space complexity** of algorithms helps us choose the most efficient one for our needs.
@@ -78,8 +100,10 @@ Understanding the **time** and **space complexity** of algorithms helps us choos
 - **Big Ω Notation** 🅾️
 - **Big Θ Notation** 🅾️
 
-![Complexity Analysis](https://example.com/complexity-analysis.png)
-
+```text
+O(1) < O(log n) < O(n) < O(n log n) < O(n^2)
+(Good) ----------------------------> (Bad)
+```
 ## 🚀 Resources
 
 - [Introduction to Algorithms](https://example.com/introduction-to-algorithms)

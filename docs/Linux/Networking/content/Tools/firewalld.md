@@ -119,7 +119,7 @@ sudo firewall-cmd --reload
 
 ---
 
-### **Mermaid Diagram for Example Workflow** 🛠️
+### **Diagram for Example Workflow** 🛠️
 
 ```text
 [Firewall Command] --> [New Rule Applied] --> [Reload Firewall] --> [Network Traffic Filtered 🚦]

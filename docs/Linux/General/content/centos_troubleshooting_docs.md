@@ -346,7 +346,7 @@ Effective troubleshooting is essential for maintaining a healthy and efficient L
 
 ### **8. Visual Representation** 📊📈
 
-#### **Mermaid Graph: Troubleshooting Process Flow**
+#### **Diagram: Troubleshooting Process Flow**
 
 ```text
 [Start Troubleshooting] --> [Identify the Problem] --> [Gather Data] --> [Analyze the Data]
@@ -355,7 +355,7 @@ Effective troubleshooting is essential for maintaining a healthy and efficient L
    [End Troubleshooting] <-- [Document Findings] <-- [Test Solutions]
 ```
 
-#### **Mermaid Graph: Common Linux Issues Breakdown**
+#### **Diagram: Common Linux Issues Breakdown**
 
 ```text
 [Common Linux Issues]

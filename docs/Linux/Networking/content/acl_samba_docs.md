@@ -268,7 +268,7 @@ Active Directory is a crucial component for managing users and resources in a Wi
 
 ---
 
-Certainly! Below is a **comprehensive and detailed tutorial** on **Active Directory (AD)**, enhanced with practical terminal commands, summary scripts, Mermaid diagrams, and a vibrant use of emojis to make the learning process engaging and straightforward.
+Certainly! Below is a **comprehensive and detailed tutorial** on **Active Directory (AD)**, enhanced with practical terminal commands, summary scripts, diagrams, and a vibrant use of emojis to make the learning process engaging and straightforward.
 
 ---
 
@@ -834,18 +834,16 @@ net ads testjoin
 
 ### **9. Visual Representation** 📊✨
 
-#### **Mermaid Diagram: Active Directory and Samba Integration Workflow**
+#### **Diagram: Active Directory and Samba Integration Workflow**
 
-```mermaid
-graph TD
-    A[Windows Server - AD DC] -->|Authenticates| B[Linux Server - Samba]
-    B -->|Shares Files| C[Windows Client]
-    B -->|Shares Files| D[Linux Client]
-    A -->|Manages Users/Groups| B
-    A -->|Group Policies| C
-    A -->|Group Policies| D
+```text
+[Windows Server - AD DC] --(Authenticates)--> [Linux Server - Samba]
+       |                                           |     |
+(Manages Users/Groups)                       (Shares Files)
+       |                                           |     |
+       v                                           v     v
+ [Group Policies] --> [Windows Client]      [Linux Client]
 ```
-
 **Explanation:**
 
 1. **Active Directory Domain Controller (AD DC):** Authenticates users and manages group policies.

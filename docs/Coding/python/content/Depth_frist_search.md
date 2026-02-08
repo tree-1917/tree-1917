@@ -10,7 +10,7 @@ In this tutorial, we'll dive into three fundamental ways to traverse a tree data
 2. 🔍 **PreOrder Traversal (Root → Left → Right)**
 3. 🔍 **InOrder Traversal (Left → Root → Right)**
 4. 🔍 **PostOrder Traversal (Left → Right → Root)**
-5. 🎨 **Visualizing Traversal Orders (Mermaid Graphs)**
+5. 🎨 **Visualizing Traversal Orders (Diagrams)**
 6. 💻 **Code Examples**
 7. 🔚 **Conclusion**
 
@@ -127,7 +127,7 @@ The **PostOrder** traversal will print: `4 5 2 3 1`
 
 ---
 
-### 🎨 5. Visualizing Traversal Orders (Mermaid Graphs)
+### 🎨 5. Visualizing Traversal Orders (Diagrams)
 
 #### 🌟 PreOrder Traversal:
 ```text

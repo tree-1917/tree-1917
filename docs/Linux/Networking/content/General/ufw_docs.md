@@ -6,7 +6,7 @@
 2. [Understanding `ufw.service`](#understanding-ufwservice)
 3. [Basic UFW Commands](#basic-ufw-commands)
 4. [Managing `ufw.service` with `systemd`](#managing-ufwservice-with-systemd)
-5. [Visualizing UFW with Mermaid Diagrams](#visualizing-ufw-with-mermaid-diagrams)
+5. [Visualizing UFW with Diagrams](#visualizing-ufw-with-diagrams)
 6. [Examples and Use Cases](#examples-and-use-cases)
 7. [Advanced Configuration](#advanced-configuration)
 8. [Additional Resources](#additional-resources)
@@ -116,7 +116,7 @@ Here are some essential UFW commands:
 
 ---
 
-## **5. Visualizing UFW with Mermaid Diagrams** 📊
+## **5. Visualizing UFW with Diagrams** 📊
 
 ### **UFW Workflow:**
 

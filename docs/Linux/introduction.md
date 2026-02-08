@@ -27,7 +27,7 @@ Linux comes in many flavors, each tailored for different needs and preferences. 
 - **Debian**: Renowned for its stability and extensive software repositories.
 - **CentOS**: Designed for enterprise environments, based on Red Hat Enterprise Linux (RHEL).
 
-![Linux Distributions](https://example.com/linux-distributions.png)
+![Linux Distributions](../assets/images/linux-distributions.svg)
 
 ## Installing Linux 🛠️
 
@@ -43,7 +43,7 @@ Linux comes in many flavors, each tailored for different needs and preferences. 
 
 5. **Complete the Installation**: Once the installation is complete, restart your computer and remove the USB drive. You should now boot into your new Linux system!
 
-![Linux Installation](https://example.com/linux-installation.png)
+![Linux Installation](../assets/images/linux-installation.svg)
 
 ## Basic Linux Commands 💻
 
@@ -79,7 +79,7 @@ Here are some fundamental commands that will help you navigate and manage your L
 - `top` - Shows running processes and system resource usage.
 - `df -h` - Displays disk space usage in a human-readable format.
 
-![Basic Linux Commands](https://example.com/basic-linux-commands.png)
+![Basic Linux Commands](../assets/images/basic-linux-commands.svg)
 
 ## Managing Software 📦
 

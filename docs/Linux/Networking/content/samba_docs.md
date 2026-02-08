@@ -242,7 +242,7 @@ sudo systemctl start smb nmb
 
 ### **8. Visual Representation** 📊
 
-#### **Mermaid Graph: Samba Setup Process**
+#### **Diagram: Samba Setup Process**
 
 ```text
 [Start] --> [Update Package Lists] --> [Install Samba] --> [Configure Firewall]

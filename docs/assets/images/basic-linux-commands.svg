@@ -1,0 +1,38 @@
+<svg width="500" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal Window -->
+  <rect x="10" y="10" width="480" height="280" rx="5" ry="5" fill="#2c3e50" stroke="#34495e" stroke-width="2"/>
+  
+  <!-- Title Bar -->
+  <rect x="10" y="10" width="480" height="25" rx="5" ry="5" fill="#34495e"/>
+  <circle cx="25" cy="22.5" r="5" fill="#e74c3c"/>
+  <circle cx="40" cy="22.5" r="5" fill="#f1c40f"/>
+  <circle cx="55" cy="22.5" r="5" fill="#2ecc71"/>
+  <text x="250" y="27" font-family="Monospace" font-size="12" text-anchor="middle" fill="#ecf0f1">bash - Linux Commands</text>
+
+  <!-- Content -->
+  <g transform="translate(30, 60)" font-family="Monospace" font-size="14" fill="#ecf0f1">
+    <text x="0" y="0" font-weight="bold" fill="#2ecc71">$ pwd</text>
+    <text x="100" y="0">Print Working Directory</text>
+    
+    <text x="0" y="30" font-weight="bold" fill="#2ecc71">$ ls</text>
+    <text x="100" y="30">List files and directories</text>
+    
+    <text x="0" y="60" font-weight="bold" fill="#2ecc71">$ cd</text>
+    <text x="100" y="60">Change Directory</text>
+    
+    <text x="0" y="90" font-weight="bold" fill="#2ecc71">$ cp</text>
+    <text x="100" y="90">Copy files/folders</text>
+    
+    <text x="0" y="120" font-weight="bold" fill="#2ecc71">$ mv</text>
+    <text x="100" y="120">Move or rename</text>
+    
+    <text x="0" y="150" font-weight="bold" fill="#2ecc71">$ rm</text>
+    <text x="100" y="150">Remove (delete)</text>
+    
+    <text x="0" y="180" font-weight="bold" fill="#2ecc71">$ top</text>
+    <text x="100" y="180">View running processes</text>
+    
+    <text x="0" y="210" font-weight="bold" fill="#2ecc71">$ man</text>
+    <text x="100" y="210">Read manual pages</text>
+  </g>
+</svg>

@@ -9,7 +9,7 @@ In this guide, we will cover everything you need to know about **Network File Sy
 
 1. [Introduction to Network File System (NFS)](#1-introduction-to-network-file-system-nfs)
 2. [When is NFS Needed?](#2-when-is-nfs-needed)
-3. [How NFS Works (With Mermaid Graph)](#3-how-nfs-works-with-mermaid-graph)
+3. [How NFS Works (With Diagram)](#3-how-nfs-works-with-mermaid-graph)
 4. [NFS Server Configuration](#4-nfs-server-configuration)
    1. [Installing NFS Packages](#installing-nfs-packages)
    2. [Starting the NFS Services](#starting-the-nfs-services)
@@ -41,7 +41,7 @@ NFS is particularly useful in scenarios like:
 - **Centralized Data Storage:** Allowing clients to access and manipulate files in one centralized location.
 - **Backup Solutions:** Efficient backups by accessing remote filesystems.
 
-### **3. How NFS Works (With Mermaid Graph)** 🖥️🔗
+### **3. How NFS Works (With Diagram)** 🖥️🔗
 
 Here's a visual representation of how NFS operates:
 

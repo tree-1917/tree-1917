@@ -33,8 +33,16 @@
 - **Configuration Files**:
   - Located in `/etc/systemd/` and `/lib/systemd/`.
 
-![systemd Overview](https://example.com/systemd_overview.png)
-
+```text
++---------------------+
+|      systemd        |
++---------------------+
+| Service Management  |
+| Parallel Startup    |
+| Logging (journald)  |
+| State Management    |
++---------------------+
+```
 ---
 
 ## **🔧 Introduction to `systemctl` 🛠️**
@@ -58,8 +66,16 @@
   - **Check Status**: `systemctl status <service>`
   - **Reload Configuration**: `systemctl reload <service>`
 
-![systemctl Overview](https://example.com/systemctl_overview.png)
-
+```text
++-----------------------+
+|       systemctl       |
++-----------------------+
+| Start/Stop Services   |
+| Enable/Disable        |
+| Check Status          |
+| Reload Config         |
++-----------------------+
+```
 ---
 
 ## **🔍 Key Differences Between `systemd` and `systemctl`**
@@ -71,8 +87,14 @@
 | **Components**    | Includes `journald`, `logind`, etc.         | Commands to manage and query `systemd`        |
 | **Configuration** | Configuration files in `/etc/systemd/`      | Commands to control and query services        |
 
-![Comparison Table](https://example.com/comparison_table.png)
-
+```text
+| Feature       | systemd                     | systemctl                     |
+|---------------|-----------------------------|-------------------------------|
+| Definition    | System & Service Manager    | Command-line Utility          |
+| Function      | Manages System State        | Controls systemd              |
+| Components    | journald, logind, networkd  | start, stop, enable, status   |
+| Config        | /etc/systemd/*              | Command attributes            |
+```
 ---
 
 ## **🛠️ Common Use Cases**
@@ -117,8 +139,9 @@
   ```
   - Example: `systemctl restart nginx`
 
-![Use Cases](https://example.com/use_cases.png)
-
+```text
+[User] --(systemctl start nginx)--> [systemd] --(ExecStart)--> [nginx process]
+```
 ---
 
 ## **📝 Example Scripts**

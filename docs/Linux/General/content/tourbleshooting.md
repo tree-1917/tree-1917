@@ -360,26 +360,26 @@ systemctl list-units --type=service --state=running
 #!/bin/bash
 # Permission Issues Troubleshooting Script
 
-echo "Displaying file permissions for /path/to/file_or_directory..." 🔒
+echo "🔒 Displaying file permissions for /path/to/file_or_directory..."
 ls -l /path/to/file_or_directory
 
-echo "Modifying permissions..." 🛠️
+echo "🛠️ Modifying permissions..."
 sudo chmod 755 /path/to/directory
 sudo chmod 644 /path/to/file
 
-echo "Changing ownership to username:groupname..." 👥
+echo "👥 Changing ownership to username:groupname..."
 sudo chown username:groupname /path/to/file_or_directory
 
-echo "Checking SELinux status..." 🛡️
+echo "🛡️ Checking SELinux status..."
 sestatus
 
-echo "If using AppArmor, checking its status..." 🔍
+echo "🔍 If using AppArmor, checking its status..."
 sudo aa-status
 
-echo "Temporarily setting SELinux to permissive mode..." ⚙️
+echo "⚙️ Temporarily setting SELinux to permissive mode..."
 sudo setenforce 0
 
-echo "Setting AppArmor profile to complain mode..." 🔧
+echo "🔧 Setting AppArmor profile to complain mode..."
 sudo aa-complain /path/to/profile
 ```
 
