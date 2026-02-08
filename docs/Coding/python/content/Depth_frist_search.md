@@ -130,34 +130,35 @@ The **PostOrder** traversal will print: `4 5 2 3 1`
 ### 🎨 5. Visualizing Traversal Orders (Mermaid Graphs)
 
 #### 🌟 PreOrder Traversal:
-```mermaid
-graph TD
-    A[1 (Root)] --> B[2 (Left)]
-    A --> C[3 (Right)]
-    B --> D[4 (Left)]
-    B --> E[5 (Right)]
+```text
+[1 (Root)]
+    |
+    +--> [2 (Left)]
+    |       |
+    |       +--> [4 (Left)]
+    |       +--> [5 (Right)]
+    |
+    +--> [3 (Right)]
 ```
 
 Traversal Order: `1 → 2 → 4 → 5 → 3`
 
 #### 🌿 InOrder Traversal:
-```mermaid
-graph TD
-    D[4 (Left)] --> B[2 (Root)]
-    E[5 (Right)] --> B
-    B --> A[1 (Root)]
-    A --> C[3 (Right)]
+```text
+[4 (Left)] --> [2 (Root)] <-- [5 (Right)]
+                   |
+                   v
+               [1 (Root)] <-- [3 (Right)]
 ```
 
 Traversal Order: `4 → 2 → 5 → 1 → 3`
 
 #### 🍂 PostOrder Traversal:
-```mermaid
-graph TD
-    D[4 (Left)] --> B[2 (Left Subtree)]
-    E[5 (Right)] --> B
-    B --> A[1 (Root)]
-    C[3 (Right Subtree)] --> A
+```text
+[4 (Left)] --> [2 (Left Subtree)] <-- [5 (Right)]
+                       |
+                       v
+                   [1 (Root)] <-- [3 (Right Subtree)]
 ```
 
 Traversal Order: `4 → 5 → 2 → 3 → 1`

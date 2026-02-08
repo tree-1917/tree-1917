@@ -40,13 +40,11 @@ UFW simplifies firewall configuration by abstracting the complexities of `iptabl
 
 ### **Mermaid Diagram:**
 
-```mermaid
-graph TD;
-    A[User Commands] --> B[Systemd];
-    B --> C[ufw.service];
-    C --> D[UFW Firewall Rules];
-    D --> E[Allowed Traffic];
-    D --> F[Blocked Traffic];
+```text
+[User Commands] --> [Systemd] --> [ufw.service] --> [UFW Firewall Rules]
+                                                          |
+                                                          +--> [Allowed Traffic]
+                                                          +--> [Blocked Traffic]
 ```
 
 ---
@@ -107,15 +105,13 @@ Here are some essential UFW commands:
 
 ### **Mermaid Diagram:**
 
-```mermaid
-graph TD;
-    A[User Command] --> B[systemctl];
-    B --> C[ufw.service];
-    C --> D[Service Actions];
-    D --> E[Start];
-    D --> F[Stop];
-    D --> G[Restart];
-    D --> H[Status];
+```text
+[User Command] --> [systemctl] --> [ufw.service] --> [Service Actions]
+                                                          |
+                                                          +--> [Start]
+                                                          +--> [Stop]
+                                                          +--> [Restart]
+                                                          +--> [Status]
 ```
 
 ---
@@ -124,16 +120,16 @@ graph TD;
 
 ### **UFW Workflow:**
 
-```mermaid
-flowchart TD
-    A[User Command] --> B[UFW Service]
-    B --> C{Apply Rules?}
-    C -->|Yes| D[Update Firewall]
-    C -->|No| E[No Changes]
-    D --> F[Allow Traffic]
-    D --> G[Block Traffic]
-    F --> H[Allowed Connections]
-    G --> I[Blocked Connections]
+```text
+[User Command] --> [UFW Service] --> {Apply Rules?}
+                                          |
+                                    Yes --+--> [Update Firewall]
+                                          |        |
+                                    No  --+        +--> [Allow Traffic] --> [Allowed Connections]
+                                          |        |
+                                          |        +--> [Block Traffic] --> [Blocked Connections]
+                                          v
+                                     [No Changes]
 ```
 
 ---

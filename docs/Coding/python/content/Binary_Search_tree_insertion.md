@@ -76,13 +76,14 @@ To avoid the **O(n)** worst-case scenario, we use **self-balancing trees** like 
 
 Here’s a diagram that shows the pyramid-shaped structure for time complexities in a BST:
 
-```mermaid
-graph TD
-    A["O(log n)"] --> B["Balanced Tree"]
-    B --> C["Good Time Complexity"]
-    D["O(n)"] --> E["Unbalanced Tree"]
-    E --> F["Worst Time Complexity"]
-
+```text
+     O(log n)
+    /        \
+   /__Balanced__\
+  /__Good Complexity__\
+ /________O(n)_________\
+/___Unbalanced Tree_____\
+/__Worst Time Complexity__\
 ```
 
 ### 🎨 Visualizing Time Complexity:

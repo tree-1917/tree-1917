@@ -75,15 +75,10 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.snippets
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.superfences
 # === custom css === #
 extra_css:
   - assets/stylesheets/extra.css
 # # === custom js === #
 extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
 #   - assets/javascripts/extra.js

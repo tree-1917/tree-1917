@@ -348,25 +348,23 @@ Effective troubleshooting is essential for maintaining a healthy and efficient L
 
 #### **Mermaid Graph: Troubleshooting Process Flow**
 
-```mermaid
-graph TD
-    A[Start Troubleshooting] --> B[Identify the Problem]
-    B --> C[Gather Data]
-    C --> D[Analyze the Data]
-    D --> E[Test Solutions]
-    E --> F[Document Findings]
-    F --> G[End Troubleshooting]
+```text
+[Start Troubleshooting] --> [Identify the Problem] --> [Gather Data] --> [Analyze the Data]
+                                                                                |
+                                                                                v
+   [End Troubleshooting] <-- [Document Findings] <-- [Test Solutions]
 ```
 
 #### **Mermaid Graph: Common Linux Issues Breakdown**
 
-```mermaid
-graph LR
-    A[Common Linux Issues] --> B[Boot Issues]
-    A --> C[Network Problems]
-    A --> D[File System Errors]
-    A --> E[Performance Problems]
-    A --> F[Permission Issues]
+```text
+[Common Linux Issues]
+      |
+      +--> [Boot Issues]
+      +--> [Network Problems]
+      +--> [File System Errors]
+      +--> [Performance Problems]
+      +--> [Permission Issues]
 ```
 
 ---

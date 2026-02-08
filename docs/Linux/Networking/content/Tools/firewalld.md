@@ -34,13 +34,16 @@ Welcome to this **interactive guide** to mastering firewalls in Linux using `fir
 
 Firewalld uses **zones** to determine what traffic is allowed based on the trust level. It organizes traffic like a bouncer at a club 🕺, deciding who gets in and who doesn't based on rules for that area.
 
-```mermaid
-flowchart TD
-    A[Incoming Traffic] --> B{Firewalld Zones?}
-    B -->|Public Zone| C[Blocked Traffic]
-    B -->|Home Zone| D[Allowed Traffic]
-    C --> E[Goodbye 👋]
-    D --> F[Welcome In! 🎉]
+```text
+[Incoming Traffic] --> {Firewalld Zones?}
+                            |
+           (Public Zone) ---+--- (Home Zone)
+                 |                   |
+                 v                   v
+         [Blocked Traffic]    [Allowed Traffic]
+                 |                   |
+                 v                   v
+           [Goodbye 👋]       [Welcome In! 🎉]
 ```
 
 ---
@@ -118,11 +121,8 @@ sudo firewall-cmd --reload
 
 ### **Mermaid Diagram for Example Workflow** 🛠️
 
-```mermaid
-graph TD
-    A[Firewall Command] --> B[New Rule Applied]
-    B --> C[Reload Firewall]
-    C --> D[Network Traffic Filtered 🚦]
+```text
+[Firewall Command] --> [New Rule Applied] --> [Reload Firewall] --> [Network Traffic Filtered 🚦]
 ```
 
 ---

@@ -244,18 +244,14 @@ sudo systemctl start smb nmb
 
 #### **Mermaid Graph: Samba Setup Process**
 
-```mermaid
-graph TD;
-    A[Start] --> B[Update Package Lists]
-    A --> C[Install Samba]
-    C --> D[Configure Firewall]
-    D --> E[Create Share Directory]
-    E --> F[Set Permissions]
-    F --> G[Edit smb.conf]
-    G --> H[Change SELinux Context]
-    H --> I[Restart Samba Services]
-    I --> J[Mount Shares on Clients]
-    J --> K[Finish]
+```text
+[Start] --> [Update Package Lists] --> [Install Samba] --> [Configure Firewall]
+                                                                  |
+                                                                  v
+[Edit smb.conf] <-- [Set Permissions] <-- [Create Share Directory]
+       |
+       v
+[Change SELinux Context] --> [Restart Samba Services] --> [Mount Shares on Clients] --> [Finish]
 ```
 
 ---

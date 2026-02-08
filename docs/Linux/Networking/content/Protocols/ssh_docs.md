@@ -21,11 +21,8 @@
 ## 🔑 **What is SSH?**
 SSH stands for **Secure Shell**. It provides a secure way to access and manage Linux systems remotely by sending encrypted commands from a client to the server. It acts as a bridge, allowing you to communicate with your system and instruct the kernel to manage hardware.
 
-```mermaid
-graph TD;
-    A[User] -->|SSH Connection| B[Linux System];
-    B --> C[Kernel];
-    C --> D[Hardware Management];
+```text
+[User] --(SSH Connection)--> [Linux System] --> [Kernel] --> [Hardware Management]
 ```
 
 ## 🛠️ **How to Install SSH?**
@@ -78,11 +75,11 @@ The main configuration file for SSH is located at `/etc/ssh/sshd_config`. Here's
    sudo systemctl restart sshd
    ```
 
-```mermaid
-graph TD;
-    ConfigFile[sshd_config] -->|Client Settings| SSHService[SSH Service];
-    SSHService --> Timeout[User Timeout];
-    SSHService --> RestrictRoot[Root Login Restriction];
+```text
+[sshd_config] --(Client Settings)--> [SSH Service]
+                                         |
+                                         +--> [User Timeout]
+                                         +--> [Root Login Restriction]
 ```
 
 ---
@@ -120,10 +117,8 @@ graph TD;
 ## 🔐 **What are SSH-Keys?**
 SSH keys provide a secure, password-less way to access remote servers. They use public-key cryptography for authentication, enabling automated scripts and frequent logins without needing a password.
 
-```mermaid
-graph TD;
-    A[Client] -->|SSH-Key| B[Server];
-    B --> D[Login Success];
+```text
+[Client] --(SSH-Key)--> [Server] --> [Login Success]
 ```
 
 ### **Why Use SSH-Keys?**
@@ -149,11 +144,10 @@ graph TD;
    ssh user@server
    ```
 
-```mermaid
-graph TD;
-    A[Generate SSH Key] -->|ssh-keygen| B[Public Key & Private Key];
-    B -->|ssh-copy-id| C[Remote Server];
-    C --> D[Passwordless Login];
+```text
+[Generate SSH Key] --(ssh-keygen)--> [Public & Private Key]
+                                            |
+                                            +--(ssh-copy-id)--> [Remote Server] --> [Passwordless Login]
 ```
 
 ---

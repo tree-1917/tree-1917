@@ -604,36 +604,35 @@ Visual aids can help in understanding the troubleshooting process and the relati
 
 #### **5.1 Troubleshooting Process Flow**
 
-```mermaid
-graph TD
-    A[Common Linux Issues] --> B[Boot Issues]
-    A --> C[Network Problems]
-    A --> D[File System Errors]
-    A --> E[Performance Problems]
-    A --> F[Permission Issues]
+```text
+[Common Linux Issues]
+      |
+      +--> [Boot Issues]
+      +--> [Network Problems]
+      +--> [File System Errors]
+      +--> [Performance Problems]
+      +--> [Permission Issues]
 ```
 
 #### **5.2 Troubleshooting Steps Flowchart**
 
-```mermaid
-graph TD
-    Start[Start Troubleshooting] --> Identify[Identify the Problem]
-    Identify --> Gather[Gather Data]
-    Gather --> Analyze[Analyze the Data]
-    Analyze --> Test[Test Solutions]
-    Test --> Document[Document Findings]
-    Document --> End[End Troubleshooting]
+```text
+[Start Troubleshooting] --> [Identify the Problem] --> [Gather Data] --> [Analyze the Data]
+                                                                                |
+                                                                                v
+   [End Troubleshooting] <-- [Document Findings] <-- [Test Solutions]
 ```
 
 #### **5.3 Common Linux Issues Breakdown**
 
-```mermaid
-graph LR
-    A[Common Linux Issues] --> B[Boot Issues]
-    A --> C[Network Problems]
-    A --> D[File System Errors]
-    A --> E[Performance Problems]
-    A --> F[Permission Issues]
+```text
+[Common Linux Issues]
+      |
+      +--> [Boot Issues]
+      +--> [Network Problems]
+      +--> [File System Errors]
+      +--> [Performance Problems]
+      +--> [Permission Issues]
 ```
 
 ---

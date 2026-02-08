@@ -171,13 +171,12 @@ Here’s a handy table summarizing the key firewall commands across different to
 
 Here’s a flowchart to understand how traffic flows through a firewall:
 
-```mermaid
-graph TD;
-    A[Incoming Traffic] --> B[Firewall];
-    B --> C[Allowed Traffic];
-    B --> D[Blocked Traffic];
-    C --> E[Application e.g., Apache];
-    D --> F[Drop/Reject];
+```text
+[Incoming Traffic] --> [Firewall]
+                            |
+                            +--> [Allowed Traffic] --> [Application e.g., Apache]
+                            |
+                            +--> [Blocked Traffic] --> [Drop/Reject]
 ```
 
 ---

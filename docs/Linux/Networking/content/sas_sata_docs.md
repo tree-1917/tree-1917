@@ -76,11 +76,15 @@ To change the speed of SATA or SAS devices, follow these steps:
 
 #### **SATA vs. SAS Traffic Flow**:
 
-```mermaid
-graph LR
-    A[Cairo] -->|SATA| B[Alexandria]
-    A -->|SAS| B
-    A -->|SAS| C[Luxor]
+```text
+          (SATA)
+[Cairo] ----------> [Alexandria]
+   |
+   |      (SAS)
+   +----------------> [Alexandria]
+   |
+   |      (SAS)
+   +----------------> [Luxor]
 ```
 
 - **SATA**: A single route (Cairo to Alexandria).

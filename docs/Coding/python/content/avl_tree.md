@@ -51,12 +51,13 @@ An **AVL Tree** is a **self-balancing Binary Search Tree (BST)**.
 
 ### Types of Rotations in AVL Trees:
 
-```mermaid
-graph TD
-    A[AVL Tree] --> B(Left-Left Rotation)
-    A --> C(Left-Right Rotation)
-    A --> D(Right-Right Rotation)
-    A --> E(Right-Left Rotation)
+```text
+[AVL Tree]
+    |
+    +--> [Left-Left Rotation]
+    +--> [Left-Right Rotation]
+    +--> [Right-Right Rotation]
+    +--> [Right-Left Rotation]
 ```
 
 ---
@@ -70,18 +71,20 @@ graph TD
 
 #### Before Right Rotation:
 
-```mermaid
-graph TD
-    A((10)) --> B((5))
-    B --> C((3))
+```text
+    (10)
+    /
+   (5)
+   /
+ (3)
 ```
 
 #### After Right Rotation:
 
-```mermaid
-graph TD
-    B((5)) --> C((3))
-    B --> A((10))
+```text
+    (5)
+   /   \
+ (3)   (10)
 ```
 
 #### Code Example:
@@ -148,18 +151,20 @@ class AVLTree:
 
 #### Before Left-Right Rotation:
 
-```mermaid
-graph TD
-    A((10)) --> B((5))
-    B --> C((7))
+```text
+   (10)
+   /
+ (5)
+   \
+   (7)
 ```
 
 #### After Left-Right Rotation:
 
-```mermaid
-graph TD
-    C((7)) --> B((5))
-    C --> A((10))
+```text
+    (7)
+   /   \
+ (5)   (10)
 ```
 
 #### Code Example:
@@ -197,18 +202,20 @@ class AVLTree:
 
 #### Before Left Rotation:
 
-```mermaid
-graph TD
-    A((10)) --> B((15))
-    B --> C((20))
+```text
+ (10)
+   \
+   (15)
+     \
+     (20)
 ```
 
 #### After Left Rotation:
 
-```mermaid
-graph TD
-    B((15)) --> A((10))
-    B --> C((20))
+```text
+    (15)
+   /    \
+ (10)   (20)
 ```
 
 #### Code Example:
@@ -244,18 +251,20 @@ class AVLTree:
 
 #### Before Right-Left Rotation:
 
-```mermaid
-graph TD
-    A((10)) --> B((20))
-    B --> C((15))
+```text
+ (10)
+   \
+   (20)
+   /
+ (15)
 ```
 
 #### After Right-Left Rotation:
 
-```mermaid
-graph TD
-    C((15)) --> A((10))
-    C --> B((20))
+```text
+    (15)
+   /    \
+ (10)   (20)
 ```
 
 #### Code Example:

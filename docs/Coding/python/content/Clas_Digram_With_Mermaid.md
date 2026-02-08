@@ -23,7 +23,7 @@ Mermaid uses a markdown-inspired syntax to create diagrams. For class diagrams, 
 
 ### Basic Structure
 
-```mermaid
+```text
 classDiagram
     % Define your classes here
     class ClassName {
@@ -49,7 +49,7 @@ To define a class, use the `class` keyword followed by the class name.
 
 ### Example
 
-```mermaid
+```text
 classDiagram
     class Customer {
         + customerId: Integer
@@ -65,7 +65,7 @@ Inside each class, define attributes and methods using visibility indicators (`+
 
 ### Example
 
-```mermaid
+```text
 classDiagram
     class Customer {
         + customerId: Integer
@@ -85,7 +85,7 @@ Mermaid supports several types of relationships. Below are examples of eight dif
 
 Represents a simple connection between two classes.
 
-```mermaid
+```text
 Customer "1" -- "0..*" Order : places
 ```
 
@@ -93,7 +93,7 @@ Customer "1" -- "0..*" Order : places
 
 Represents a "whole-part" relationship where the parts can exist independently of the whole.
 
-```mermaid
+```text
 Order "1" o-- "0..*" OrderItem : contains
 ```
 
@@ -101,7 +101,7 @@ Order "1" o-- "0..*" OrderItem : contains
 
 A stronger form of aggregation where the parts cannot exist without the whole.
 
-```mermaid
+```text
 Order "1" *-- "0..*" OrderItem : consists of
 ```
 
@@ -109,7 +109,7 @@ Order "1" *-- "0..*" OrderItem : consists of
 
 Represents an "is-a" relationship where one class inherits from another.
 
-```mermaid
+```text
 Employee <|-- Manager : is a
 ```
 
@@ -117,7 +117,7 @@ Employee <|-- Manager : is a
 
 Indicates that a class implements an interface.
 
-```mermaid
+```text
 Customer ..|> ICustomerService : implements
 ```
 
@@ -125,7 +125,7 @@ Customer ..|> ICustomerService : implements
 
 Represents a "uses" relationship where one class depends on another.
 
-```mermaid
+```text
 Order ..> Product : depends on
 ```
 
@@ -133,7 +133,7 @@ Order ..> Product : depends on
 
 A two-way association where both classes are aware of each other.
 
-```mermaid
+```text
 Customer "1" -- "0..*" Order : places
 Order "0..*" -- "1" Customer : is placed by
 ```
@@ -142,7 +142,7 @@ Order "0..*" -- "1" Customer : is placed by
 
 A one-way association where only one class is aware of and interacts with another.
 
-```mermaid
+```text
 Order "1" --> "1" Customer : is placed by
 ```
 
@@ -162,7 +162,7 @@ To visualize your Mermaid class diagram, use the following tools:
 
 Here’s an example of a complete class diagram for a shop system using all eight relationships:
 
-```mermaid
+```text
 classDiagram
     class Customer {
         + customerId: Integer

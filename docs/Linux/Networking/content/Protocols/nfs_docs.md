@@ -45,16 +45,17 @@ NFS is particularly useful in scenarios like:
 
 Here's a visual representation of how NFS operates:
 
-```mermaid
-graph TD
-    Client[Client Machine]
-    Server[NFS Server]
-    SharedDir[Shared Directory]
-
-    Client -->|Request Access| Server
-    Server -->|Authenticate| Client
-    Server -->|Provide Access to| SharedDir
-    Client -->|Read/Write Files| SharedDir
+```text
+                   (Request Access)
+[Client Machine] -------------------> [NFS Server]
+       ^                                   |
+       |             (Authenticate)        |
+       +-----------------------------------+
+       |                                   |
+(Read/Write Files)                   (Provide Access)
+       |                                   |
+       v                                   v
+[Shared Directory] <-----------------------+
 ```
 
 ### **4. NFS Server Configuration** 🛠️💻

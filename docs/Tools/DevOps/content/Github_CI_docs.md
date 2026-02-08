@@ -144,14 +144,12 @@ To ensure that only code passing all tests gets merged into critical branches (l
 
 ### 🗺️ Branch Protection Workflow Diagram
 
-```mermaid
-graph LR
-    A[Developer Creates PR] --> B[GitHub Actions Run Tests]
-    B --> C{Tests Pass?}
-    C -- Yes --> D[Code Review]
-    C -- No --> E[Notify Developer]
-    D --> F[Merge PR]
-    E --> G[Developer Fixes Issues]
+```text
+[Developer Creates PR] --> [GitHub Actions Run Tests] --> {Tests Pass?}
+                                                          |
+                                                    Yes --+--> [Code Review] --> [Merge PR]
+                                                          |
+                                                    No  --+--> [Notify Developer] --> [Fix Issues]
 ```
 
 ---
@@ -367,17 +365,15 @@ By combining GitHub Actions, branch protection rules, auto-merge features, and n
 
 ### 🖼️ Comprehensive Workflow Diagram
 
-```mermaid
-graph TD
-    A[Developer Pushes Code] --> B[GitHub Actions Run Tests]
-    B --> C{Tests Pass?}
-    C -- Yes --> D[Code Review]
-    D --> E{Approved?}
-    E -- Yes --> F[Auto-Merge PR]
-    E -- No --> G[Request Changes]
-    C -- No --> H[Create Issue / Notify Developer]
-    H --> I[Developer Fixes Code]
-    I --> A
+```text
+[Developer Pushes Code] --> [GitHub Actions Run Tests] --> {Tests Pass?}
+                                                             |
+                                                       Yes --+--> [Code Review] --> {Approved?}
+                                                             |                        |
+                                                             |                  Yes --+--> [Auto-Merge PR]
+                                                             |                  No  --+--> [Request Changes]
+                                                             |
+                                                       No  --+--> [Create Issue / Notify] --> [Fix Code] --> [Developer Pushes Code]
 ```
 
 ---

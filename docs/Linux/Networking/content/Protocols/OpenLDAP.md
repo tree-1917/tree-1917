@@ -215,25 +215,28 @@ esac
 
 ### 🌳 LDAP Directory Structure
 
-```mermaid
-graph TD;
-    A[Root DN - dc=example,dc=com] --> B[Organizational Unit - ou=users];
-    B --> C[User - uid=user1];
-    B --> D[User - uid=user2];
-    A --> E[Organizational Unit - ou=groups];
-    E --> F[Group - cn=admins];
-    E --> G[Group - cn=users];
+```text
+[Root DN - dc=example,dc=com]
+      |
+      +--> [Organizational Unit - ou=users]
+      |         |
+      |         +--> [User - uid=user1]
+      |         +--> [User - uid=user2]
+      |
+      +--> [Organizational Unit - ou=groups]
+                |
+                +--> [Group - cn=admins]
+                +--> [Group - cn=users]
 ```
 
 ### ⚙️ Slapd Configuration Flow
 
-```mermaid
-graph TD;
-    A[slapd Configuration] --> B[cn=config];
-    B --> C[olcDatabase mdb.ldif];
-    B --> D[olcAccess Control];
-    C --> E[RootDN Configuration];
-    D --> F[Password Settings];
+```text
+[slapd Configuration] --> [cn=config]
+                             |
+                             +--> [olcDatabase mdb.ldif] --> [RootDN Configuration]
+                             |
+                             +--> [olcAccess Control] --> [Password Settings]
 ```
 
 ---
