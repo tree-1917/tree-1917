@@ -16,16 +16,20 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: white
+      accent: custom
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: Switch to Night Theme
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: black
+      accent: custom
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to Day Theme
   # === Custom nav feature === #
   features:
     - navigation.instant
