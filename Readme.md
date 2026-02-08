@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Gamal+Moussa+%F0%9F%91%8B;Software+Engineer;DevOps+Engineer;Linux+Enthusiast;Python+Developer;Welcome+to+Camel+Code!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=2196F3&center=true&vCenter=true&width=500&lines=Hi+there%2C+I'm+Gamal+Moussa+%F0%9F%91%8B;Software+Engineer;DevOps+Engineer;Linux+Enthusiast;Welcome+to+Camel+Code!" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <h3>Software Engineering | Automating Infrastructure | Optimizing Workflows</h3>
+  <h3>Software Engineering</h3>
 </div>
 
 <p align="center">
-Welcome to my GitHub profile! I am a Software Engineer who specialized in DevOps, passionate about open source and cloud technologies. I run <a href="https://CamelCode.github.io/">Camel Code</a>, a blog dedicated to Linux, DevOps, and coding tutorials.
+Welcome to my GitHub profile! I am a Software Engineer who specialized in DevOps, passionate about open source and cloud technologies. I run <a href="https://tree-1917.github.io/">Camel Code</a>, a blog dedicated to Linux, DevOps, and coding tutorials.
 </p>
 
 ---
@@ -16,10 +16,9 @@ Welcome to my GitHub profile! I am a Software Engineer who specialized in DevOps
 
 - 🔭 I’m currently leveraging my **Software Engineering** background to build robust **DevOps** automation tools.
 - 🌱 I’m currently learning **Kubernetes** deep dives and **Ansible** best practices.
-- ✍️ I write technical articles on my blog, [Camel Code](https://CamelCode.github.io/).
-- 💬 Ask me about **Linux, Python, Docker, and CI/CD**.
+- ✍️ I write technical articles on my blog, [Camel Code](https://tree-1917.github.io/).
 - 📫 How to reach me: [LinkedIn](https://www.linkedin.com/in/gamalmoussa1917/)
-
+    
 ---
 
 ## 🛠️ Technologies & Tools
@@ -36,39 +35,9 @@ Welcome to my GitHub profile! I am a Software Engineer who specialized in DevOps
 ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 ### Operating Systems
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Arch Linux](https://img.shields.io/badge/arch_linux-%232C2F33.svg?style=for-the-badge&logo=arch-linux&logoColor=white)
 
 ---
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tree-1917&show_icons=true&theme=radical&count_private=true" height="180" alt="Gamal's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tree-1917&layout=compact&theme=radical&langs_count=8" height="180" alt="Gamal's Top Languages" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=tree-1917&theme=radical" alt="Gamal's Streak" />
-</div>
-
----
-
-## 🔗 Connect with Me
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/gamalmoussa1917/" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://CamelCode.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/Camel_Code-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Camel Code" />
-  </a>
-</div>
-
----
-<p align="center">Made with ❤️ by Gamal Moussa</p>
