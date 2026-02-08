@@ -1,5 +1,7 @@
 site_name: Camel Code
-site_url: https://CamelCode.github.io/
+site_url: https://tree-1917.github.io/
+repo_url: https://github.com/tree-1917/tree-1917
+repo_name: Camel Code
 # === Custom Theme === #
 theme:
   name: material

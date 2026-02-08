@@ -29,13 +29,50 @@
 .card {
   background: var(--card-background-light);
   border: 1px solid var(--card-border-light);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px var(--card-shadow-light);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--card-shadow-light);
   width: 300px;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: 1rem;
   text-align: center;
-  transition: background 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--card-link-light);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, var(--card-link-light), var(--card-link-hover-light));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.card:hover::before {
+  transform: scaleX(1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Card Headings */
@@ -70,7 +107,16 @@
   .card {
     background: var(--card-background-dark);
     border: 1px solid var(--card-border-dark);
-    box-shadow: 0 4px 8px var(--card-shadow-dark);
+    box-shadow: 0 4px 6px var(--card-shadow-dark);
+  }
+
+  .card:hover {
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+     border-color: var(--card-link-dark);
+  }
+  
+  .card::before {
+    background: linear-gradient(90deg, var(--card-link-dark), var(--card-link-hover-dark));
   }
 
   .card h3,
